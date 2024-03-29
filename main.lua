@@ -11,12 +11,12 @@ local tau = math.pi * 2
 local forwardVector = vec3(0, 0, 1)
 local upVector = vec3(0, 1, 0)
 local rightVector = vec3(1, 0, 0)
-local skyColour = {0.05, 0.025, 0.075}
+local skyColour = {0.025, 0, 0.0375}
 local starColour = {1, 1, 1}
 local farDistance = 100000
 local nearDistance = 0.1
 local minStarAngularRadius = 0.002
-local maxStarAngularRadius = 0.006
+local maxStarAngularRadius = 0.003
 local glowRadiusMultiplier = 30
 local skySideSize = 1024
 
